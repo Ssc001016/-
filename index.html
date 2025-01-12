@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的视频展示</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>我的视频集锦</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">首页</a></li>
+          <li><a href="#videos">视频</a></li>
+          <li><a href="#about">关于</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="featured" class="video-container">
+        <h2>精选视频</h2>
+        <div class="video-grid">
+          <!-- 视频展示区域 -->
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls>
+                <source
+                  src="videos/27795196709_da1-1-16.mp4"
+                  type="video/mp4"
+                />
+                您的浏览器不支持视频标签。
+              </video>
+            </div>
+            <h3>视频号精彩内容</h3>
+            <p>这是我的第一个视频作品，希望大家喜欢！</p>
+          </div>
+          <!-- 这里先注释掉第二个视频卡片，等有更多视频再添加
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls>
+                <source src="videos/video2.mp4" type="video/mp4" />
+                您的浏览器不支持视频标签。
+              </video>
+            </div>
+            <h3>视频标题 2</h3>
+            <p>视频描述...</p>
+          </div>
+          -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 我的视频号. 保留所有权利。</p>
+    </footer>
+  </body>
+</html>
